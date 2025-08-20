@@ -4,3 +4,7 @@ const posts = [
 ]
 
 export const getPosts = () => posts;
+
+export const getPostsLength = () => posts.length;
+
+export default getPosts;
